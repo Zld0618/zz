@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人自我介绍 | Web前端作业</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Microsoft Yahei", sans-serif;
+            background: linear-gradient(135deg, #e0edff, #f5f8ff);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* 个人卡片主体 */
+        .intro-card {
+            width: 450px;
+            background: #fff;
+            padding: 45px 35px;
+            border-radius: 20px;
+            box-shadow: 0 8px 25px rgba(44, 82, 130, 0.15);
+            text-align: center;
+            transition: 0.3s ease;
+        }
+
+        .intro-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 12px 35px rgba(44, 82, 130, 0.2);
+        }
+
+        .title {
+            font-size: 26px;
+            color: #2c5282;
+            margin-bottom: 25px;
+            letter-spacing: 2px;
+        }
+
+        /* 信息行样式 */
+        .info-line {
+            font-size: 18px;
+            color: #333;
+            margin: 14px 0;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: #f6f9ff;
+        }
+
+        .info-line strong {
+            color: #2c5282;
+            margin-right: 8px;
+        }
+
+        /* 简介段落 */
+        .desc {
+            margin-top: 25px;
+            font-size: 16px;
+            color: #555;
+            line-height: 1.8;
+            text-align: left;
+            padding: 15px;
+            background: #f8faff;
+            border-radius: 12px;
+        }
+
+        .footer-tip {
+            margin-top: 30px;
+            font-size: 14px;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+    <div class="intro-card">
+        <h2 class="title">个人自我介绍</h2>
+
+        <div class="info-line">
+            <strong>姓名</strong>张立帝
+        </div>
+
+        <div class="info-line">
+            <strong>所在院校</strong>山东师范大学
+        </div>
+
+        <div class="info-line">
+            <strong>学习方向</strong>Web前端开发
+        </div>
+
+        <div class="desc">
+            大家好！我是山东师范大学的学生张立帝。目前正在系统学习Web前端开发相关知识，熟悉HTML、CSS基础页面搭建技术。在学习过程中，我认真钻研网页布局、页面美化与静态网页托管技术，积极完成课程随堂实践作业。未来我将继续深耕前端领域，不断提升代码能力与页面设计审美，制作更多美观、规范、实用的网页作品。
+        </div>
+
+        <div class="footer-tip">
+            Web前端课程第一次作业 · GitHub Pages 公开网页
+        </div>
+    </div>
+</body>
+</html>
